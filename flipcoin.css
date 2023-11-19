@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.flip {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  transition-timing-function: ease-out;
+}
+.top {
+  z-index: 5;
+  backface-visibility: hidden;
+}
+
+.coinImg {
+  width: 100px;
+}
+.bottom {
+  z-index: 3;
+}
+
+#coin {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background-color: transparent;
+  z-index: 4;
+  margin: 0 100px;
+  top:290px
+}
+
+.btn {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #88beb1;
+  color: white;
+  border: 3px solid #487e5e;
+}
+
+#result {
+ 
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #88beb1;
+  width: 100px;
+}
